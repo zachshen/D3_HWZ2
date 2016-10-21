@@ -1,7 +1,6 @@
-console.log('This would be the main JS file.');
+ function random(n, m) {
+console.log(n,m);
+result = Math.ceil(Math.random() * (m - n) + n);
 
-function showmsg(msg1,msg2) {
-    var msgAll = msg1+msg2;
-return msgAll;
-alert("q")
+return result;
 }
